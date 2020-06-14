@@ -4,6 +4,8 @@ const Reducer = (state, action) => {
             return ++state
         case 'decrement':
             return --state
+        default:
+            return state
     }
 }
 export default Reducer;
